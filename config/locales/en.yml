@@ -13,6 +13,7 @@ en:
       button_home: "Home"
       button_help:  "Help"
       button_login: "Log in"
+      button_signup: "Sign up"
   static_pages:
     about:
       title: "About"
@@ -47,3 +48,18 @@ en:
     new:
       signup: "Signup"
       content: "This will be a signup page for new users."
+  
+  controllers:
+      users_controller:
+        create:
+          flash:
+            success: "Welcome to the Sample App!"
+
+  controllers:
+    sessions_controller:
+      create:
+        flash:
+          danger: "Invalid email/password combination"
+  
+  sessions:
+    sign: "Sign up now!"
